@@ -72,7 +72,7 @@ public class HomeworkJava1 {
         int b = (int)(Math.random() * 100);
         int c = (int)(Math.random() * 100);
 
-        System.out.println(a + " , " + b + " , " + c + " , " + randomBoolean); //с
+        System.out.println(a + " , " + b + " , " + c + " , " + randomBoolean); //сделал для себя, чтобы визуально видеть, какие рандомные значения сгенерировались
 
         System.out.println("Введите число от 1 до 5, чтобы дать задание программе:");
         int numberFromInput = scanner.nextInt();
