@@ -30,10 +30,10 @@ public class HomeworkOne {
         if (data <= 10) {
             System.out.println("Красный");
         }
-        else if (data > 10 && data <= 20) {
+        else if (data <= 20) {
             System.out.println("Желтый");
         }
-        else if (data > 20) {
+        else {
             System.out.println("Зеленый");
         }
     }
@@ -68,9 +68,9 @@ public class HomeworkOne {
 
     public static void methodDependsOnInput() {
         Scanner scanner = new Scanner(System.in);
-        int a = (int)(Math.random() * 100);
-        int b = (int)(Math.random() * 100);
-        int c = (int)(Math.random() * 100);
+        int a = (int)(Math.random() * 101 - 50);
+        int b = (int)(Math.random() * 101 - 50);
+        int c = (int)(Math.random() * 101 - 50);
 
         System.out.println(a + " , " + b + " , " + c + " , " + randomBoolean); //сделал для себя, чтобы визуально видеть, какие рандомные значения сгенерировались
 
